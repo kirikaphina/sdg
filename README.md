@@ -1,1 +1,3 @@
 # sdg
+
+The Python script will aim at forecasting the final grades of students (G3) based on the UCI Student Performance data based on a supervised learning method. The start of it is loading and preprocessing the data, encoding categorical values, scaling features, and dividing the dataset into training and testing subsets. One of the Decision Trees Regressor is trained on the data in order to learn the pattern that depends on academic performances. It is followed by forecasting on test data. Lastly, the code assesses the accuracy through such measures as MAE, and R squared, and visualizes the observed versus predicted grade. This facilitates the detection of students at risk thereby assisting in early intervention as a way of enhancing quality education (SDG 4).
